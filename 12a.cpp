@@ -1,0 +1,23 @@
+//12a WAP to demonstrate default constructor
+#include<iostream>
+using namespace std;
+class A
+{
+int a,b;
+public:
+    A(){
+        a=10;
+        b=10;
+    }
+    void showdata()
+    {
+        cout<<a<<"and"<<b;
+    }
+};
+int main()
+{
+    A obj;
+    obj.showdata();
+    cout<<endl<<"Puja Bhat"<<endl<<"roll no:26";
+    return 0;
+}
